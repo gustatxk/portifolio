@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Gustavo Sousa</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.7.0/flowbite.min.js"></script>
+</head>
+<body class="bg-gray-100 text-gray-900">
+    
+            <!-- Header -->
+            <header class="bg-white shadow-sm dark:bg-gray-900 w-full fixed top-0 left-0 right-0 z-50 py-2">
+                <div class="w-full max-w-screen-xl mx-auto px-6 flex justify-between items-center">
+                    <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+                        <img src="img/logo.svg" class="h-12 rounded-full" alt="Gustavo Sousa Logo" />
+                    </a>
+                    <nav>
+                        <ul class="flex flex-wrap items-center text-sm font-medium text-gray-500 dark:text-gray-400">
+                            <li>
+                                <a href="#sobremim" class="hover:underline me-4 md:me-6">Sobre</a>
+                            </li>
+                            <li>
+                                <a href="#projetos" class="hover:underline me-4 md:me-6">Projetos</a>
+                            </li>
+                            <li>
+                                <a href="#certificacoes" class="hover:underline me-4 md:me-6">Certificações</a>
+                            </li>
+                            <li>
+                                <a href="#contato" class="hover:underline">Contato</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+            
+    <div class="max-w-4xl mx-auto p-6 pt-20 md:pt-24">
+        <!-- Apresentação -->
+        <section class="text-center">
+            <img src="img/IMG_20250224_180058_921.webp" alt="Foto de perfil" class="mx-auto rounded-full w-32 h-32 border-4 border-gray-900">
+            <h1 class="text-3xl font-bold mt-4">Gustavo Sousa</h1>
+            <p class="text-gray-600 mt-2">Software Developer Front-End | JavaScript | Python</p>
+        </section>
+
+        <!-- Redes Sociais -->
+        <section class="text-center mt-4">
+            <a href="https://www.linkedin.com/in/gustavosousa4424/" target="_blank" class="text-gray-600 hover:underline">LinkedIn</a>
+            <span class="mx-2">|</span>
+            <a href="https://github.com/gustatxk" target="_blank" class="text-gray-600 hover:underline">GitHub</a>
+        </section>
+
+        <!-- Sobre Mim -->
+        <section class="mt-10 bg-white p-6 rounded-lg shadow-md" >
+            <h2 class="text-2xl font-semibold" id="sobremim" >Sobre Mim</h2>
+            <p class="text-gray-600 mt-2">Estudante de Ensino Médio | Técnico em Desenvolvimento de Sistemas(Cursando) | EEEP Maria Célia Pinheiro Falcão
+                Sou um estudante na Escola Estadual de Educação Profissional Maria Célia Pinheiro Falcão, onde curso Técnico em Desenvolvimento de Sistemas junto com o Ensino Médio. Apaixonado por Tecnologia da Informação, meu principal foco está no desenvolvimento web e design, áreas nas quais venho aprimorando minhas habilidades e conhecimentos.</p>
+        </section>
+        
+        <!-- Formação Acadêmica -->
+        <section class="mt-10 bg-white p-6 rounded-lg shadow-md">
+            <h2 class="text-2xl font-semibold">Formação Acadêmica</h2>
+            <p class="text-gray-600 mt-2"><strong>EEEP Professora Maria Célia Pinheiro Falcão 2023-2025</strong><br>Ensino Médio Profissionalizante, Técnico em Desenvolvimento de Sistemas</p>
+            <p>A EEEP Maria Célia Pinheiro Falcão é uma escola estadual de educação profissional que oferece o Ensino Médio integrado a cursos técnicos, com o objetivo de preparar os estudantes para o mercado de trabalho e o ensino superior. A instituição proporciona uma formação de qualidade, com foco em áreas como Tecnologia da Informação, Gestão, Saúde, entre outras. Ao combinar teoria e prática, a escola incentiva o desenvolvimento de habilidades técnicas e profissionais. Para mim, essa tem sido uma etapa muito relevante da minha vida, onde fiz muitos amigos, adquiri novas competências e pude desenvolver vários projetos.</p>
+        </section>
+        
+
+        <!-- Projetos -->
+        <section class="mt-10" id="projetos">
+            <h2 class="text-2xl font-semibold text-center">Projetos</h2>
+            <div id="default-carousel" class="relative w-full mt-6" data-carousel="static">
+                <div class="relative h-56 overflow-hidden rounded-lg md:h-50">
+                    <div class="hidden duration-700 ease-in-out flex flex-col items-center justify-center h-full p-6 text-center" data-carousel-item>
+                        <h3 class="text-xl font-bold">Bloqueador de Sites</h3>
+                        <p class="text-gray-600 mt-2">Este projeto é um Bloqueador de Sites desenvolvido em Python utilizando a biblioteca Tkinter para criar uma interface gráfica simples e amigável. O objetivo do projeto é permitir que o usuário bloqueie ou desbloqueie o acesso a sites no computador, modificando o arquivo hosts do sistema.</p>
+                        <a href="https://github.com/gustatxk/bloqsites" target="_blank" class="mt-4 text-blue-500 hover:underline">Ver mais</a>
+                    </div>
+                    <div class="hidden duration-700 ease-in-out flex flex-col items-center justify-center h-full p-6 text-center" data-carousel-item>
+                        <h3 class="text-xl font-bold">Calculadora de IP para IPv4</h3>
+                        <p class="text-gray-600 mt-2">A Calculadora de IP é um projeto desenvolvido em Python utilizando Programação Orientada a Objetos (POO). Seu objetivo é analisar um endereço IP e sua máscara de sub-rede, fornecendo informações detalhadas como o endereço de rede, primeiro e último host, endereço de broadcast, classe do IP, número de sub-redes, quantidade de hosts por sub-rede, tipo do IP (público ou privado) e intervalo de IPs disponíveis. A aplicação conta com uma interface gráfica interativa desenvolvida com Streamlit, permitindo que o usuário insira um endereço IP e uma máscara de sub-rede para visualizar os cálculos de forma clara e intuitiva.</p>
+                        <a href="https://github.com/gustatxk/CalculadoraIp" target="_blank" class="mt-4 text-blue-500 hover:underline">Ver mais</a>
+                    </div>
+                    <div class="hidden duration-700 ease-in-out flex flex-col items-center justify-center h-full p-6 text-center" data-carousel-item>
+                        <h3 class="text-xl font-bold">Cópia da página de login da Paramount+</h3>
+                        <p class="text-gray-600 mt-2">O projeto simula um ataque de phishing para a coleta de dados fictícios, estando conectado a um banco de dados online.</p>
+                        <a href="https://github.com/gustatxk/copia_paramount" target="_blank" class="mt-4 text-blue-500 hover:underline">Ver mais</a>
+                    </div>
+                </div>
+                <!-- Controles do Carrossel -->
+                <button type="button" class="absolute top-1/2 -left-10 transform -translate-y-1/2 z-30 flex items-center justify-center px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+                    <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/50 dark:bg-gray-800/50 group-hover:bg-white/70 dark:group-hover:bg-gray-800/70">
+                        <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+                        </svg>
+                    </span>
+                </button>
+                <button type="button" class="absolute top-1/2 -right-10 transform -translate-y-1/2 z-30 flex items-center justify-center px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+                    <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/50 dark:bg-gray-800/50 group-hover:bg-white/70 dark:group-hover:bg-gray-800/70">
+                        <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+                        </svg>
+                    </span>
+                </button>
+            </div>
+        </section>
+
+        <!-- Certificações -->
+        <section class="mt-10 bg-white p-6 rounded-lg shadow-md" id="certificacoes">
+            <h2 class="text-2xl font-semibold">Certificações</h2>
+            <ul class="list-disc list-inside text-gray-600 mt-2">
+                <li>Fábrica de Programadores - UFC</li>
+                <li>Monitor de Lógica de Programação</li>
+                <li>HCIA-5G V2.0 Course</li>
+                <li>Metodologia científica: introdução a projetos de pesquisa</li>
+            </ul>
+        </section>
+
+       <!-- Contato -->
+       <div class="text-center mt-10" id="contato">
+        <button class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2" type="button" data-drawer-target="drawer-contact" data-drawer-show="drawer-contact" aria-controls="drawer-contact">
+            Mostrar Formulário de Contato
+        </button>
+    </div>
+    <div id="drawer-contact" class="fixed top-0 left-0 z-40 h-screen p-4 overflow-y-auto transition-transform -translate-x-full bg-white w-80" tabindex="-1">
+        <h5 class="inline-flex items-center mb-6 text-base font-semibold text-gray-500 uppercase">Contato</h5>
+        <button type="button" data-drawer-hide="drawer-contact" aria-controls="drawer-contact" class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 absolute top-2.5 right-2.5">
+            ✖
+        </button>
+        <form class="mb-6" action="https://formsubmit.co/gustavosousa4424@gmail.com" method="POST">
+            <div class="mb-6">
+                <label for="email" class="block mb-2 text-sm font-medium">Seu e-mail</label>
+                <input type="email" name="email" id="email" class="w-full p-2 border border-gray-300 rounded mb-2" placeholder="seu@email.com" required />
+            </div>
+            <div class="mb-6">
+                <label for="subject" class="block mb-2 text-sm font-medium">Assunto</label>
+                <input type="text" name="subject" id="subject" class="w-full p-2 border border-gray-300 rounded mb-2" placeholder="Sobre o que quer falar?" required />
+            </div>
+            <div class="mb-6">
+                <label for="message" class="block mb-2 text-sm font-medium">Sua mensagem</label>
+                <textarea name="message" id="message" rows="4" class="w-full p-2 border border-gray-300 rounded mb-2" placeholder="Digite sua mensagem..."></textarea>
+            </div>
+            <button type="submit" class="w-full bg-blue-700 text-white px-5 py-2.5 rounded hover:bg-blue-800">Enviar</button>
+        </form>
+        <p class="text-sm text-gray-500">Email: <a href="#" class="hover:underline">gustavosousa4424@gmail.com</a></p>
+        <p class="text-sm text-gray-500">Celular: +55 85 9797-3563</p>
+    </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="w-full p-2 bg-gray-900 text-white border-t border-gray-700 shadow-sm md:flex md:items-center md:justify-center md:p-4">
+        <span class="text-sm sm:text-center">©2025 Gustavo Sousa. Todos os direitos reservados.
+        </span>
+    </footer>
+</body>
+</html>
